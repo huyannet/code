@@ -1,0 +1,21 @@
+@import url(ie8.css);
+@import url(blocks.css);
+@import url(plugins.css);
+@import url(app.css);
+
+body {color: #333; font-size: 13px; line-height: 1.6;}
+p, li, li a, label {color: #555;}
+
+a {color: #72c02c; text-decoration: none;}
+a,a:focus, a:hover, a:active {outline: 0 !important;}
+a:focus {text-decoration: none;}
+a:hover {color: #72c02c; text-decoration: underline;}
+.wrapper {background: #fff;}
+.latest-list li { padding: 8px 0; border-top: 1px solid #353535;}
+.latest-list li:first-child { padding-top: 0; border-top: none;}
+.latest-list li a { color: #eee;}
+.latest-list small { color: #999; display: block;}
+.link-list li { border-top: solid 1px #353535;}
+.link-list li:first-child { border-top: none !important;}
+.link-list a { color: #eee; font-size: 11px; padding: 6px 0px; display: inline-block; text-transform: uppercase;}
+.link-list li i { color: #bbb; float: right; margin-top: 10px;}
