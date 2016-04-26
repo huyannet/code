@@ -6847,6 +6847,11 @@ body.builder {
     transition: all 500ms ease
 }
 
+.builder .sidebar-nav .box {
+    line-height: 26px;
+    width: 160px;
+    height: 26px
+}
 
 .builder .demo .preview,
 .builder .sidebar-nav .boxes,
